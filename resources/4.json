@@ -1,0 +1,21 @@
+{
+  "beans" : [ {
+    "name" : "java.lang:type=Memory",
+    "modelerType" : "sun.management.MemoryImpl",
+    "Verbose" : false,
+    "HeapMemoryUsage" : {
+      "committed" : 108122112,
+      "init" : 29876224,
+      "max" : 1013645312,
+      "used" : 50438048
+    },
+    "NonHeapMemoryUsage" : {
+      "committed" : 45547520,
+      "init" : 24313856,
+      "max" : 136314880,
+      "used" : 45382104
+    },
+    "ObjectPendingFinalizationCount" : 0,
+    "ObjectName" : "java.lang:type=Memory"
+  } ]
+}
