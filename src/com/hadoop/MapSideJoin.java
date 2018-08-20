@@ -19,6 +19,20 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.HashMap;
 
+/**
+ * 1001	pd001	300
+ 1001	pd002	20
+ 1002	pd003	40
+ 1003	pd002	50
+
+ pd001,apple
+ pd002,banana
+ pd003,orage
+
+ */
+
+
+
 public class MapSideJoin {
     static class MapSideJoinMapper extends Mapper<LongWritable,Text,Text,NullWritable>{
         //用来保存产品信息表
