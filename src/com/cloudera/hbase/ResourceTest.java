@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 public class ResourceTest {
 
 	public static void main(String[] args) throws IOException {
-		InputStream inputStream = ResourceTest.class.getClassLoader().getResourceAsStream("hbase-site.xml");
+		InputStream inputStream = ResourceTest.class.getClassLoader().getResourceAsStream("bak/hbase-site.xml");
 		BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
 		String line =null;
 		while((line=reader.readLine())!=null){

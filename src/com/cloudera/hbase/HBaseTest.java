@@ -12,13 +12,8 @@ import org.apache.hadoop.hbase.TableName;
 import org.apache.hadoop.hbase.client.Admin;
 import org.apache.hadoop.hbase.client.Connection;
 import org.apache.hadoop.hbase.client.ConnectionFactory;
-import org.apache.hadoop.hbase.client.HBaseAdmin;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Table;
-
-import com.amazonaws.services.dynamodb.model.CreateTableRequest;
-import com.google.common.primitives.Bytes;
-import com.google.protobuf.ServiceException;
 
 public class HBaseTest {
 	
@@ -29,7 +24,7 @@ public class HBaseTest {
 		System.setProperty("hadoop.home.dir", "E:\\opensoft\\hadoop-2.6.0-cdh5.5.0\\");
 		conf = HBaseConfiguration.create();
 		conf.addResource(HBaseTest.class.getClassLoader()
-				.getResourceAsStream("hbase-site.xml"));
+				.getResourceAsStream("bak/hbase-site.xml"));
 	}
 
 	public static void main(String[] args) throws IOException {
