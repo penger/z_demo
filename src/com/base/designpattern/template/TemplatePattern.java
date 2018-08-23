@@ -1,10 +1,25 @@
 package com.base.designpattern.template;
 
+import java.io.*;
+
 //可以跑的装置
 public class TemplatePattern {
 	
-	public static void main(String[] args) {
-		Car car = new Car();
+	public static void main(String[] args) throws IOException {
+
+        FileInputStream input = new FileInputStream(new File("d://a.txt"));
+        InputStreamReader reader = new InputStreamReader(input);
+
+        input.read();
+        reader.read();
+
+
+        int v;
+        while((v=input.read())!=-1){
+            char i= (char) v;
+            System.out.println(i);
+        }
+        Car car = new Car();
 		car.run();
 		House house = new House();
 		house.run();

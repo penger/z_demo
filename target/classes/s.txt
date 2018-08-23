@@ -1,0 +1,22 @@
+<table class="table table-striped"> 
+ <tbody>
+  <tr> 
+   <th>ServerName</th> 
+   <th>Port</th> 
+   <th>Start Time</th> 
+  </tr> 
+  <tr> 
+   <td><a href="//xqzycmg01:8601/master-status" target="_blank">xqzycmg01</a> </td> 
+   <td>8600</td> 
+   <td>Tue Dec 12 09:36:49 CST 2017</td> 
+  </tr> 
+  <tr> 
+   <td><a href="//xqzycmg02:8601/master-status" target="_blank">xqzycmg02</a> </td> 
+   <td>8600</td> 
+   <td>Tue Dec 12 09:37:56 CST 2017</td> 
+  </tr> 
+  <tr>
+   <td>Total:2</td> 
+  </tr>
+ </tbody>
+</table>
