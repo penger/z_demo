@@ -8,4 +8,7 @@
 out
 gen
 bin/
-target/generated-sources/
+/.settings/
+/.classpath
+/.project
+/target/
